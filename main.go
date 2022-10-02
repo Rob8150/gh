@@ -70,7 +70,7 @@ func wr(filename string) {
 		fmt.Fprintln(file, "[![GoDoc](https://godoc.org/github.com/rwxrob/gh?status.svg)](https://godoc.org/github.com/Rob8150/gh)")
 		fmt.Fprintln(file, "[![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)")
 		fmt.Fprintln(file, "[![Go Report Card](https://goreportcard.com/badge/github.com/rwxrob/gh)](https://goreportcard.com/report/github.com/rwxrob/gh)")
-		fmt.Fprintln(file, "[![GoInt](https://https://github.com/Rob8150/Rob8150/golang.png)]")
+		fmt.Fprintln(file, "[![GoInt](https://github.com/Rob8150/Rob8150/blob/main/golang.png)]")
 
 	}
 
@@ -83,7 +83,7 @@ func wr(filename string) {
 
 		fmt.Fprintln(file, "[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.jetbrains.com/scans?search.rootProjectNames=Kotlin)")
 
-		fmt.Fprintln(file, "[![GoInt](https://https://github.com/Rob8150/Rob8150/kotlin.jpeg)]")
+		fmt.Fprintln(file, "[![GoInt](https://github.com/Rob8150/Rob8150/blob/main/kotlin.jpeg)]")
 
 	}
 

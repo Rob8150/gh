@@ -2,7 +2,7 @@
 [![GoDoc](https://godoc.org/github.com/rwxrob/gh?status.svg)](https://godoc.org/github.com/Rob8150/gh)
 [![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rwxrob/gh)](https://goreportcard.com/report/github.com/rwxrob/gh)
-[![GoInt](https://https://github.com/Rob8150/Rob8150/golang.png)]
+[![GoInt](https://github.com/Rob8150/Rob8150/blob/main/golang.png)]
 # GitHub Utilities in Go 1.19+
 🚧 *under construction* 🚧
 
