@@ -82,6 +82,22 @@ func wr(filename string) {
 	fmt.Fprintln(file, "#### 30 % Complete")
 	fmt.Fprintln(file, "")
 
+	fmt.Fprintln(file, "# Contributor License Agreements")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "Before we can accept your pull requests you'll need to sign a Contributor License Agreement (CLA):")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "- **If you are an individual writing original source code** and **you own the")
+	fmt.Fprintln(file, "intellectual property**, then you'll need to sign an client agreement.")
+
+	fmt.Fprintln(file, "- **If you work for a company that wants to allow you to contribute your")
+	fmt.Fprintln(file, "  work**, then you'll need to sign a corporate client agreement.")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "You can sign these via email by contacting the Author. After that,")
+	fmt.Fprintln(file, "we'll be able to accept your pull requests.")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "Note not all projects may need contributions so just email robert.clark.1967@gmail.com")
+	fmt.Fprintln(file, "for license see License.md in this REPO.")
+
 }
 
 func rmtxt(filename string) {
@@ -228,18 +244,35 @@ func lic(filename string) {
 	fmt.Fprintln(file, "## Copyright 2022 Robert Ian Clark")
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "#### Licensed under the Apache License, Version 2.0 (the \"License\")")
-	fmt.Fprintln(file, "#### you may not use this file except in compliance with the License.")
-	fmt.Fprintln(file, "#### You may obtain a copy of the License at")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "you may not use this software except in compliance with the License.")
+	fmt.Fprintln(file, "You may obtain a copy of the License at")
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "## http://www.apache.org/licenses/LICENSE-2.0")
 	fmt.Fprintln(file, "")
-	fmt.Fprintln(file, "#### Unless required by applicable law or agreed to in writing, software")
-	fmt.Fprintln(file, "#### distributed under the License is distributed on an \"AS IS\" BASIS,")
-	fmt.Fprintln(file, "#### WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.")
-	fmt.Fprintln(file, "#### See the License for the specific language governing permissions and")
-	fmt.Fprintln(file, "#### limitations under the License.")
+	fmt.Fprintln(file, "Unless required by applicable law or agreed to in writing, software")
+	fmt.Fprintln(file, "distributed under the License is distributed on an **\"AS IS\"** BASIS,")
 	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "**WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND**, either express or implied.")
+	fmt.Fprintln(file, "See the License for the specific language governing permissions and")
+	fmt.Fprintln(file, "limitations under the License.")
+	fmt.Fprintln(file, "all Software and files within this REPO are under the afore said (the \"License\")")
 
+	fmt.Fprintln(file, "# Contributor License Agreements")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "Before we can accept your pull requests you'll need to sign a Contributor License Agreement (CLA):")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "- **If you are an individual writing original source code** and **you own the")
+	fmt.Fprintln(file, "intellectual property**, then you'll need to sign an client agreement.")
+
+	fmt.Fprintln(file, "- **If you work for a company that wants to allow you to contribute your")
+	fmt.Fprintln(file, "  work**, then you'll need to sign a corporate client agreement.")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "You can sign these via email by contacting the Author. After that,")
+	fmt.Fprintln(file, "we'll be able to accept your pull requests.")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "Note not all projects may need contributions so just email robert.clark.1967@gmail.com")
+	fmt.Fprintln(file, "")
 }
 
 // ------------------------------------------------------------------------------------------------------------------
