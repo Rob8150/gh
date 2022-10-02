@@ -24,7 +24,6 @@ type Cred struct {
 }
 
 func main() {
-
 	data := Cred{
 		Name:    "",
 		Gitcode: "",
@@ -64,25 +63,52 @@ func wr(filename string) {
 		log.Fatal("Cannot create file", err)
 	}
 	defer file.Close()
+	proj := "go"
+
+	if proj == "go" {
+		fmt.Fprintln(file, "[![Go Version](https://img.shields.io/github/go-mod/go-version/Rob8150/gh)](https://tip.golang.org/doc/go1.18)")
+		fmt.Fprintln(file, "[![GoDoc](https://godoc.org/github.com/rwxrob/gh?status.svg)](https://godoc.org/github.com/Rob8150/gh)")
+		fmt.Fprintln(file, "[![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)")
+		fmt.Fprintln(file, "[![Go Report Card](https://goreportcard.com/badge/github.com/rwxrob/gh)](https://goreportcard.com/report/github.com/rwxrob/gh)")
+		fmt.Fprintln(file, "[![GoInt](https://https://github.com/Rob8150/Rob8150/golang.png)]")
+
+	}
+
+	if proj == "kotlin" {
+		fmt.Fprintln(file, "[![TeamCity (simple build status)](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/Kotlin_KotlinPublic_Compiler.svg)](https://teamcity.jetbrains.com/buildConfiguration/Kotlin_KotlinPublic_Compiler?branch=%3Cdefault%3E&buildTypeTab=overview&mode=builds)")
+
+		fmt.Fprintln(file, "[![Maven Central](https://img.shields.io/maven-central/v/org.jetbrains.kotlin/kotlin-maven-plugin.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jetbrains.kotlin%22)")
+
+		fmt.Fprintln(file, "[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)")
+
+		fmt.Fprintln(file, "[![Revved up by Gradle Enterprise](https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.jetbrains.com/scans?search.rootProjectNames=Kotlin)")
+
+		fmt.Fprintln(file, "[![GoInt](https://https://github.com/Rob8150/Rob8150/kotlin.jpeg)]")
+
+	}
+
+	if proj == "bash" {
+		fmt.Fprintln(file, "[![CI](https://github.com/scop/bash-completion/actions/workflows/ci.yaml/badge.svg)](https://github.com/scop/bash-completion/actions/workflows/ci.yaml)")
+	}
 	fmt.Println("Creating README.md file for Github")
 
 	fmt.Fprintln(file, "# GitHub Utilities in Go 1.19+")
 	fmt.Fprintln(file, "🚧 *under construction* 🚧")
 	fmt.Fprintln(file, "")
-	fmt.Fprintln(file, "[![Go Version](https://img.shields.io/github/go-mod/go-version/Rob8150/gh)](https://tip.golang.org/doc/go1.18)")
-	fmt.Fprintln(file, "[![GoDoc](https://godoc.org/github.com/rwxrob/gh?status.svg)](https://godoc.org/github.com/Rob8150/gh)")
-	fmt.Fprintln(file, "[![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)")
-	fmt.Fprintln(file, "[![Go Report Card](https://goreportcard.com/badge/github.com/rwxrob/gh)](https://goreportcard.com/report/github.com/rwxrob/gh)")
+
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "## Design Considerations")
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "* **Create high-level functions for stuff in the `gh` tool.** No need to re-invent anything here, just pulling out all that existing code into a usable Go 1.19 module.")
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "### Work in Progress")
-	fmt.Fprintln(file, "#### 30 % Complete")
+	fmt.Fprintln(file, "* **30 % Complete**")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "__________________________________________________________________________________________________")
+	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "")
 
-	fmt.Fprintln(file, "# Contributor License Agreements")
+	fmt.Fprintln(file, "### Contributor License Agreements")
 	fmt.Fprintln(file, "")
 	fmt.Fprintln(file, "Before we can accept your pull requests you'll need to sign a Contributor License Agreement (CLA):")
 	fmt.Fprintln(file, "")
