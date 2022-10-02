@@ -225,7 +225,21 @@ func lic(filename string) {
 
 	fmt.Println("Creating License.md for Github")
 
-	fmt.Fprintln(file, "ToDo License MD")
+	fmt.Fprintln(file, "## Copyright 2022 Robert Ian Clark")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "#### Licensed under the Apache License, Version 2.0 (the \"License\")")
+	fmt.Fprintln(file, "#### you may not use this file except in compliance with the License.")
+	fmt.Fprintln(file, "#### You may obtain a copy of the License at")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "## http://www.apache.org/licenses/LICENSE-2.0")
+	fmt.Fprintln(file, "")
+	fmt.Fprintln(file, "#### Unless required by applicable law or agreed to in writing, software")
+	fmt.Fprintln(file, "#### distributed under the License is distributed on an \"AS IS\" BASIS,")
+	fmt.Fprintln(file, "#### WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.")
+	fmt.Fprintln(file, "#### See the License for the specific language governing permissions and")
+	fmt.Fprintln(file, "#### limitations under the License.")
+	fmt.Fprintln(file, "")
+
 }
 
 // ------------------------------------------------------------------------------------------------------------------
